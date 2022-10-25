@@ -1,0 +1,49 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 50%; */
+}
+
+table.dark {
+  border-collapse: collapse;
+  border: 1px solid #1a1a1a;
+  background-color: #2b2b2b;
+  height: 400px;
+  width: 450px;
+}
+
+table.dark th {
+  border-bottom: 1px solid #000;
+  background-color: #1a1a1a;
+  color: #c8c2c1;
+  padding: 8px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+table.dark td {
+  border-right: 1px solid #1a1a1a;
+  color: #a09e9d;
+  margin: 0;
+  /* height: 100px; */
+  border-bottom: 2px solid #343434;
+  padding-left: 8px;
+}
+
+table.dark h4 {
+  font-weight: normal;
+  color: #e3dedd;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+tbody tr {
+  height: 80px;
+  /* margin-bottom: 0; */
+}
+
+/* Tips: If you need a background-image, use gradient.gif from the images folder For font-family: you can use “Arial, Helvetica, sans-serif”
+
+Note: You can update the given code movies.zip or create your own from scratch, whichever is more convenient for you. Don’t forget to zip the folder containing all codes and images, then upload it. */
