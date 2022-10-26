@@ -11,6 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>IC PORTFOLIO</title>
   </head>
   <body>
@@ -19,7 +29,7 @@
         <img src="images/logo.png" alt="" class="logo" />
         <nav>
           <ul class="nav-list">
-            <li><a class="nav-links" href="#">Home</a></li>
+            <li><a class="nav-links" href="#hero">Home</a></li>
             <li><a class="nav-links" href="#">About</a></li>
             <li><a class="nav-links" href="#">Skills</a></li>
             <li><a class="nav-links" href="#">Projects</a></li>
@@ -28,5 +38,39 @@
         </nav>
       </div>
     </header>
+
+    <section id="hero">
+      <div class="container hero">
+        <div class="hero-txt">
+          <h1 class="heading-primary">Hello, I'm <span>IC Broqueza</span></h1>
+          <p class="subheading">WEB DEVELOPER STUDENT</p>
+        </div>
+        <div>
+          <a href="#" class="btn">Contact Me</a>
+        </div>
+        <div class="socials-container">
+          <div class="social-box">
+            <a href="#">
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            </a>
+          </div>
+          <div class="social-box">
+            <a href="#">
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+          </div>
+          <div class="social-box">
+            <a href="#">
+              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            </a>
+          </div>
+          <div class="social-box">
+            <a href="#">
+              <ion-icon class="social-icon" name="logo-github"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
