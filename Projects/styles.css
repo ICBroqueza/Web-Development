@@ -20,6 +20,7 @@ html {
 }
 
 section {
+  height: 100vh;
   padding: 9.6rem 0;
 }
 
@@ -36,15 +37,26 @@ section {
   color: #333;
 }
 
-.heading-primary span {
+.heading-primary span,
+.heading-secondary span {
   font-weight: 600;
   color: #495057;
+}
+
+.heading-secondary {
+  font-size: 2.5rem;
 }
 
 .subheading {
   font-size: 2rem;
   letter-spacing: 1.5px;
   color: #333;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  color: #ced4da;
+  line-height: 10px;
 }
 
 .btn:link,
@@ -86,6 +98,19 @@ section {
 .social-icon:hover {
   transform: scale(1.1);
   color: #495057;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.description {
+  font-size: 1.8rem;
+  line-height: 2;
 }
 
 /* ******  Header Section ****** */
@@ -135,4 +160,27 @@ header {
 
 .hero-txt {
   margin-bottom: 3rem;
+}
+
+/* ******  About Section ****** */
+.about {
+  padding: 2.5rem 2.4rem;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 5%);
+}
+
+.about-text {
+  text-align: center;
+}
+
+.about-content {
+  align-items: center;
+}
+
+.about-content .socials-container {
+  justify-content: start;
+}
+
+.about-img {
+  width: 100%;
 }
