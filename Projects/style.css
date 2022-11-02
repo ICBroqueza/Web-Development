@@ -21,6 +21,12 @@ body {
   grid-template-rows: 0.5fr 3fr 0.2fr;
 }
 
+section {
+  display: grid;
+  grid-template-columns: 0.3fr 2fr;
+  align-items: center;
+}
+
 /* *** HEADER SECTION *** */
 .header-title {
   display: flex;
@@ -120,4 +126,22 @@ footer {
 .underline:active {
   text-decoration: underline;
   font-weight: 500;
+}
+
+/* *** HOME SECTION *** */
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20rem;
+}
+
+.home-content--image {
+  margin-bottom: 2rem;
+}
+
+.home-content--text {
+  font-size: 2rem;
+  width: 45rem;
+  text-align: center;
 }
